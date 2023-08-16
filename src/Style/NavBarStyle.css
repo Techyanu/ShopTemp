@@ -1,0 +1,17 @@
+li{
+    padding: 10px;
+}
+
+a{
+    color:#000;
+}
+a:hover {
+    color: red;
+  }
+
+.logo{
+    color: pink;
+    margin-left: 50px;
+    font-weight: 900;
+    font-size: xx-large;
+}

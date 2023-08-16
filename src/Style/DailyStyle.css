@@ -1,0 +1,65 @@
+h1 {
+    color: aqua;
+}
+
+.imgs {
+    height: auto;
+    width: 200px;
+    border: 1px solid #f6f6f8;
+    transition: transform .5s;
+
+}
+
+.imgs:hover {
+    transform: scale(.9);
+}
+
+.checked {
+    color: orange;
+    margin-right: 8px;
+
+}
+
+.black {
+    margin-right: 8px;
+}
+.strdiv{
+    width: 200px;
+    text-align: center;
+}
+
+.price{
+width: 200px;
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+}
+
+h1:after {
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: #000;
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
+
+h1:before {
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: #000;
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+
+h1 {
+    font-family: sans-serif;
+    margin: 100px auto;
+    text-align: center;
+    font-size: 30px;
+    max-width: 600px;
+    position: relative;
+}
